@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1737ECC123CBC3F1002E0FBA /* cup.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1737ECC023CBC3F1002E0FBA /* cup.usdz */; };
+		1737ECC423CBC3FB002E0FBA /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737ECC223CBC3FB002E0FBA /* VirtualPlane.swift */; };
+		1737ECC523CBC3FB002E0FBA /* ARSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737ECC323CBC3FB002E0FBA /* ARSessionState.swift */; };
+		1737ECC723CBC404002E0FBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1737ECC623CBC404002E0FBA /* Main.storyboard */; };
+		1737ECC923CBC40E002E0FBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737ECC823CBC40D002E0FBA /* ViewController.swift */; };
+		1737ECCC23CD6403002E0FBA /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1737ECCB23CD6403002E0FBA /* robot.usdz */; };
 		1779E90823CBB6B800167170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779E90723CBB6B800167170 /* AppDelegate.swift */; };
 		1779E90A23CBB6B800167170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779E90923CBB6B800167170 /* SceneDelegate.swift */; };
-		1779E90C23CBB6B800167170 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779E90B23CBB6B800167170 /* ViewController.swift */; };
-		1779E90F23CBB6B800167170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1779E90D23CBB6B800167170 /* Main.storyboard */; };
 		1779E91123CBB6B900167170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1779E91023CBB6B900167170 /* Assets.xcassets */; };
 		1779E91423CBB6B900167170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1779E91223CBB6B900167170 /* LaunchScreen.storyboard */; };
+		1779E92623CBB87400167170 /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1779E92423CBB87400167170 /* wheelbarrow.usdz */; };
+		1779E92723CBB87400167170 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1779E92523CBB87400167170 /* teapot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1737ECC023CBC3F1002E0FBA /* cup.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup.usdz; sourceTree = "<group>"; };
+		1737ECC223CBC3FB002E0FBA /* VirtualPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
+		1737ECC323CBC3FB002E0FBA /* ARSessionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSessionState.swift; sourceTree = "<group>"; };
+		1737ECC623CBC404002E0FBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1737ECC823CBC40D002E0FBA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1737ECCB23CD6403002E0FBA /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot.usdz; sourceTree = "<group>"; };
 		1779E90423CBB6B800167170 /* ARKit Spring2020 Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit Spring2020 Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1779E90723CBB6B800167170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1779E90923CBB6B800167170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1779E90B23CBB6B800167170 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1779E90E23CBB6B800167170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1779E91023CBB6B900167170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1779E91323CBB6B900167170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1779E91523CBB6B900167170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1779E92423CBB87400167170 /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		1779E92523CBB87400167170 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1737ECCA23CBC440002E0FBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1737ECC323CBC3FB002E0FBA /* ARSessionState.swift */,
+				1737ECC223CBC3FB002E0FBA /* VirtualPlane.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1779E8FB23CBB6B800167170 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +77,28 @@
 		1779E90623CBB6B800167170 /* ARKit Spring2020 Final */ = {
 			isa = PBXGroup;
 			children = (
+				1737ECCA23CBC440002E0FBA /* Model */,
 				1779E90723CBB6B800167170 /* AppDelegate.swift */,
 				1779E90923CBB6B800167170 /* SceneDelegate.swift */,
-				1779E90B23CBB6B800167170 /* ViewController.swift */,
-				1779E90D23CBB6B800167170 /* Main.storyboard */,
+				1737ECC823CBC40D002E0FBA /* ViewController.swift */,
 				1779E91023CBB6B900167170 /* Assets.xcassets */,
+				1779E92323CBB87400167170 /* usdz */,
+				1737ECC623CBC404002E0FBA /* Main.storyboard */,
 				1779E91223CBB6B900167170 /* LaunchScreen.storyboard */,
 				1779E91523CBB6B900167170 /* Info.plist */,
 			);
 			path = "ARKit Spring2020 Final";
+			sourceTree = "<group>";
+		};
+		1779E92323CBB87400167170 /* usdz */ = {
+			isa = PBXGroup;
+			children = (
+				1737ECC023CBC3F1002E0FBA /* cup.usdz */,
+				1779E92423CBB87400167170 /* wheelbarrow.usdz */,
+				1779E92523CBB87400167170 /* teapot.usdz */,
+				1737ECCB23CD6403002E0FBA /* robot.usdz */,
+			);
+			path = usdz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1779E91423CBB6B900167170 /* LaunchScreen.storyboard in Resources */,
+				1737ECCC23CD6403002E0FBA /* robot.usdz in Resources */,
 				1779E91123CBB6B900167170 /* Assets.xcassets in Resources */,
-				1779E90F23CBB6B800167170 /* Main.storyboard in Resources */,
+				1779E92623CBB87400167170 /* wheelbarrow.usdz in Resources */,
+				1737ECC723CBC404002E0FBA /* Main.storyboard in Resources */,
+				1779E92723CBB87400167170 /* teapot.usdz in Resources */,
+				1737ECC123CBC3F1002E0FBA /* cup.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1779E90C23CBB6B800167170 /* ViewController.swift in Sources */,
+				1737ECC923CBC40E002E0FBA /* ViewController.swift in Sources */,
 				1779E90823CBB6B800167170 /* AppDelegate.swift in Sources */,
+				1737ECC523CBC3FB002E0FBA /* ARSessionState.swift in Sources */,
 				1779E90A23CBB6B800167170 /* SceneDelegate.swift in Sources */,
+				1737ECC423CBC3FB002E0FBA /* VirtualPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1779E90D23CBB6B800167170 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1779E90E23CBB6B800167170 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1779E91223CBB6B900167170 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
